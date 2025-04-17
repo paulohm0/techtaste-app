@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:techtaste_app/data/restaurants_data.dart';
 import 'package:techtaste_app/ui/_core/app_theme.dart';
+import 'package:techtaste_app/ui/_core/bag_provider.dart';
 import 'package:techtaste_app/ui/splash/splash_screen.dart';
 
 void main() async {
@@ -11,11 +12,8 @@ void main() async {
   runApp(
     MultiProvider(
       providers: [
-        ChangeNotifierProvider(
-          create: (context) {
-            return restaurantsData;
-          },
-        )
+        ChangeNotifierProvider(create: (context) => restaurantsData),
+        ChangeNotifierProvider(create: (context) => BagProvider())
       ],
       child: const MyApp(),
     ),
