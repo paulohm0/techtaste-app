@@ -16,33 +16,39 @@ class HomeScreen extends StatelessWidget {
       ),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 24.0),
-        child: Column(
-          // atributo spacing, so foi adicionado no flutter na versao 3.27
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Center(child: Image.asset('assets/logo.png', width: 147)),
-            const SizedBox(height: 32.0),
-            const Text('Boas-Vindas !'),
-            const SizedBox(height: 32.0),
-            TextFormField(),
-            const SizedBox(height: 32.0),
-            const Text('Escolha por categoria'),
-            Row(
-              children: List.generate(
-                CategoriesData.listCategories.length,
-                (index) {
-                  return CategoryWidget(
-                    category: CategoriesData.listCategories[index],
-                  );
-                },
+        child: SingleChildScrollView(
+          child: Column(
+            // atributo spacing, so foi adicionado no flutter na versao 3.27
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Center(child: Image.asset('assets/logo.png', width: 147)),
+              const SizedBox(height: 32.0),
+              const Text('Boas-Vindas !'),
+              const SizedBox(height: 32.0),
+              TextFormField(),
+              const SizedBox(height: 32.0),
+              const Text('Escolha por categoria'),
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Wrap(
+                  spacing: 8.0,
+                  children: List.generate(
+                    CategoriesData.listCategories.length,
+                    (index) {
+                      return CategoryWidget(
+                        category: CategoriesData.listCategories[index],
+                      );
+                    },
+                  ),
+                ),
               ),
-            ),
-            const SizedBox(height: 32.0),
-            Image.asset('assets/banners/banner_promo.png'),
-            const SizedBox(height: 32.0),
-            const Text('Bem avaliados'),
-            const SizedBox(height: 32.0),
-          ],
+              const SizedBox(height: 32.0),
+              Image.asset('assets/banners/banner_promo.png'),
+              const SizedBox(height: 32.0),
+              const Text('Bem avaliados'),
+              const SizedBox(height: 64.0),
+            ],
+          ),
         ),
       ),
     );
