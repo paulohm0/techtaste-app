@@ -152,7 +152,7 @@
             "imagePath": "restaurants/donutz.png",
             "name": "Donutz",
             "description": "Os melhores donuts da cidade!",
-            "stars": 4.8,
+            "stars": 2.8,
             "distance": 4,
             "categories": [
                 "Sobremesas",
