@@ -1,0 +1,675 @@
+{
+    "restaurants": [
+        {
+            "id": "b2d171d3-a225-4ee9-8f23-058ed691ef7c",
+            "imagePath": "restaurants/restaurant-default-image.png",
+            "name": "Monstro Burguer",
+            "description": "Hambúrgueres para quem curte a madrugada.",
+            "stars": 4.3,
+            "distance": 2,
+            "categories": [
+                "Principais",
+                "Petiscos"
+            ],
+            "dishes": [
+                {
+                    "id": "772c4982-5f51-49c2-b287-3a27d08f93d0",
+                    "imagePath": "dishes/monstro-burguer/xtudao.png",
+                    "name": "X-Tudão",
+                    "description": "O X-Tudão é um prato pensado para satisfazer os paladares mais exigentes.",
+                    "price": 35
+                },
+                {
+                    "id": "0d968177-dfcb-4c56-a214-169969e894e5",
+                    "imagePath": "dishes/monstro-burguer/monstro_duplo.png",
+                    "name": "Monstro Duplo",
+                    "description": "O Monstro Duplo é um prato pensado para satisfazer os paladares mais exigentes. ",
+                    "price": 40
+                },
+                {
+                    "id": "c0defe6c-c752-4303-b8cf-1cbe0ea932c7",
+                    "imagePath": "dishes/monstro-burguer/monstro_furioso.png",
+                    "name": "Monstro Furioso",
+                    "description": "O Monstro Furioso é um prato pensado para satisfazer os paladares mais exigentes. Com uma combinação equilibrada de ingredientes selecionados e um tempero especial, cada garfada traz uma explosão de sabores que tornam essa refeição inesquecível. Ideal para quem busca um prato completo e delicioso.",
+                    "price": 38
+                },
+                {
+                    "id": "6461198e-ee59-4e8d-ade9-daf74ce49df9",
+                    "imagePath": "dishes/monstro-burguer/bacon_supremo.png",
+                    "name": "Bacon Supremo",
+                    "description": "O Bacon Supremo é um prato pensado para satisfazer os paladares mais exigentes. Com uma combinação equilibrada de ingredientes selecionados e um tempero especial, cada garfada traz uma explosão de sabores que tornam essa refeição inesquecível. Ideal para quem busca um prato completo e delicioso.",
+                    "price": 42
+                },
+                {
+                    "id": "bdb3109b-31c9-44b5-9d34-d6d78072061a",
+                    "imagePath": "dishes/monstro-burguer/cheddar_explosivo.png",
+                    "name": "Cheddar Explosivo",
+                    "description": "O Cheddar Explosivo é um prato pensado para satisfazer os paladares mais exigentes. Com uma combinação equilibrada de ingredientes selecionados e um tempero especial, cada garfada traz uma explosão de sabores que tornam essa refeição inesquecível. Ideal para quem busca um prato completo e delicioso.",
+                    "price": 37
+                }
+            ]
+        },
+        {
+            "id": "eba2d597-a35d-4a84-bcb1-75881330c488",
+            "imagePath": "restaurants/restaurant-default-image.png",
+            "name": "Cabrón Mexicano",
+            "description": "Autêntica comida mexicana, cheia de sabor e tradição.",
+            "stars": 4.7,
+            "distance": 3,
+            "categories": [
+                "Petiscos",
+                "Bebidas"
+            ],
+            "dishes": [
+                {
+                    "id": "ab91abf1-73d3-418b-95de-c0cd7a86e94a",
+                    "imagePath": "dishes/cabron-mexicano/taco_supremo.png",
+                    "name": "Taco Supremo",
+                    "description": "O Taco Supremo é a escolha perfeita para um momento descontraído. Pequeno no tamanho, mas gigante no sabor, essa delícia é preparada com ingredientes frescos e um toque especial que faz toda a diferença. Perfeito para petiscar entre amigos ou como uma entrada que desperta o apetite.",
+                    "price": 25
+                },
+                {
+                    "id": "b8923bea-42db-48c3-b96c-2b12ba123842",
+                    "imagePath": "dishes/cabron-mexicano/burrito_explosivo.png",
+                    "name": "Burrito Explosivo",
+                    "description": "O Burrito Explosivo é a escolha perfeita para um momento descontraído. Pequeno no tamanho, mas gigante no sabor, essa delícia é preparada com ingredientes frescos e um toque especial que faz toda a diferença. Perfeito para petiscar entre amigos ou como uma entrada que desperta o apetite.",
+                    "price": 30
+                },
+                {
+                    "id": "989215f6-e3dd-42ac-9e1e-cbd480f33a10",
+                    "imagePath": "dishes/cabron-mexicano/quesadilla_cheddar.png",
+                    "name": "Quesadilla de Cheddar",
+                    "description": "O Quesadilla de Cheddar é a escolha perfeita para um momento descontraído. Pequeno no tamanho, mas gigante no sabor, essa delícia é preparada com ingredientes frescos e um toque especial que faz toda a diferença. Perfeito para petiscar entre amigos ou como uma entrada que desperta o apetite.",
+                    "price": 22
+                },
+                {
+                    "id": "d4241056-cdd6-4798-b632-e753b0f1d7b7",
+                    "imagePath": "dishes/cabron-mexicano/enchilada_picante.png",
+                    "name": "Enchilada Picante",
+                    "description": "O Enchilada Picante é a escolha perfeita para um momento descontraído. Pequeno no tamanho, mas gigante no sabor, essa delícia é preparada com ingredientes frescos e um toque especial que faz toda a diferença. Perfeito para petiscar entre amigos ou como uma entrada que desperta o apetite.",
+                    "price": 28
+                },
+                {
+                    "id": "da27e8c7-faf9-468f-84e0-82961d4e365f",
+                    "imagePath": "dishes/cabron-mexicano/guacamole_supremo.png",
+                    "name": "Guacamole Supremo",
+                    "description": "O Guacamole Supremo é a escolha perfeita para um momento descontraído. Pequeno no tamanho, mas gigante no sabor, essa delícia é preparada com ingredientes frescos e um toque especial que faz toda a diferença. Perfeito para petiscar entre amigos ou como uma entrada que desperta o apetite.",
+                    "price": 18
+                }
+            ]
+        },
+        {
+            "id": "ddd8936a-6324-4071-a3f0-228e5971648f",
+            "imagePath": "restaurants/restaurant-default-image.png",
+            "name": "Foodcourt Natural",
+            "description": "Alimentação saudável e saborosa.",
+            "stars": 5.0,
+            "distance": 1,
+            "categories": [
+                "Principais"],
+
+            "dishes": [
+                {
+                    "id": "e551a0b1-0032-4f28-a17c-fd3cdaf7089f",
+                    "imagePath": "dishes/foodcourt-natural/salada_verde.png",
+                    "name": "Salada Verde",
+                    "description": "O Salada Verde é um prato pensado para satisfazer os paladares mais exigentes. Com uma combinação equilibrada de ingredientes selecionados e um tempero especial, cada garfada traz uma explosão de sabores que tornam essa refeição inesquecível. Ideal para quem busca um prato completo e delicioso.",
+                    "price": 22
+                },
+                {
+                    "id": "d41596e4-9969-499e-bda6-27e0eeda4206",
+                    "imagePath": "dishes/foodcourt-natural/wrap_natural.png",
+                    "name": "Wrap Natural",
+                    "description": "O Wrap Natural é um prato pensado para satisfazer os paladares mais exigentes. Com uma combinação equilibrada de ingredientes selecionados e um tempero especial, cada garfada traz uma explosão de sabores que tornam essa refeição inesquecível. Ideal para quem busca um prato completo e delicioso.",
+                    "price": 24
+                },
+                {
+                    "id": "fda0b33d-9543-475d-ac3c-f879d0c79b1b",
+                    "imagePath": "dishes/foodcourt-natural/suco_detox.png",
+                    "name": "Suco Detox",
+                    "description": "O Suco Detox é um prato pensado para satisfazer os paladares mais exigentes. Com uma combinação equilibrada de ingredientes selecionados e um tempero especial, cada garfada traz uma explosão de sabores que tornam essa refeição inesquecível. Ideal para quem busca um prato completo e delicioso.",
+                    "price": 12
+                },
+                {
+                    "id": "444d4e8b-e9c6-4f52-9abf-b7ae8a43dd2e",
+                    "imagePath": "dishes/foodcourt-natural/granola_fit.png",
+                    "name": "Granola Fit",
+                    "description": "O Granola Fit é um prato pensado para satisfazer os paladares mais exigentes. Com uma combinação equilibrada de ingredientes selecionados e um tempero especial, cada garfada traz uma explosão de sabores que tornam essa refeição inesquecível. Ideal para quem busca um prato completo e delicioso.",
+                    "price": 18
+                },
+                {
+                    "id": "c99a505b-cad9-44ec-b80b-b45c328933db",
+                    "imagePath": "dishes/foodcourt-natural/crepe_integral.png",
+                    "name": "Crepe Integral",
+                    "description": "O Crepe Integral é um prato pensado para satisfazer os paladares mais exigentes. Com uma combinação equilibrada de ingredientes selecionados e um tempero especial, cada garfada traz uma explosão de sabores que tornam essa refeição inesquecível. Ideal para quem busca um prato completo e delicioso.",
+                    "price": 20
+                }
+            ]
+        },
+        {
+            "id": "702e5a20-938c-4aba-91e1-73103aec471e",
+            "imagePath": "restaurants/restaurant-default-image.png",
+            "name": "Donutz",
+            "description": "Os melhores donuts da cidade!",
+            "stars": 2.8,
+            "distance": 4,
+            "categories": [
+                "Sobremesas"],
+            "dishes": [
+                {
+                    "id": "36fbff31-a8d7-41fb-a6d0-78936f65f7f2",
+                    "imagePath": "dishes/donutz/donut_tradicional.png",
+                    "name": "Donut Tradicional",
+                    "description": "O Donut Tradicional é a maneira perfeita de encerrar sua refeição com chave de ouro. Sua textura suave e seu sabor equilibrado garantem um momento de prazer único. Com um toque de doçura na medida certa, essa sobremesa é um verdadeiro deleite para os amantes de doces.",
+                    "price": 10
+                },
+                {
+                    "id": "5fcdfe7a-1c7b-4323-82bf-9c23da601e12",
+                    "imagePath": "dishes/donutz/donut_recheado.png",
+                    "name": "Donut Recheado",
+                    "description": "O Donut Recheado é a maneira perfeita de encerrar sua refeição com chave de ouro. Sua textura suave e seu sabor equilibrado garantem um momento de prazer único. Com um toque de doçura na medida certa, essa sobremesa é um verdadeiro deleite para os amantes de doces.",
+                    "price": 12
+                },
+                {
+                    "id": "aa238ea7-3d7e-42d2-8a26-5be8d2af9cf2",
+                    "imagePath": "dishes/donutz/donut_red_velvet.png",
+                    "name": "Donut Red Velvet",
+                    "description": "O Donut Red Velvet é a maneira perfeita de encerrar sua refeição com chave de ouro. Sua textura suave e seu sabor equilibrado garantem um momento de prazer único. Com um toque de doçura na medida certa, essa sobremesa é um verdadeiro deleite para os amantes de doces.",
+                    "price": 15
+                },
+                {
+                    "id": "f6ca19e1-e92d-43ff-87da-67e6313ac30e",
+                    "imagePath": "dishes/donutz/donut_oreo.png",
+                    "name": "Donut Oreo",
+                    "description": "O Donut Oreo é a maneira perfeita de encerrar sua refeição com chave de ouro. Sua textura suave e seu sabor equilibrado garantem um momento de prazer único. Com um toque de doçura na medida certa, essa sobremesa é um verdadeiro deleite para os amantes de doces.",
+                    "price": 14
+                },
+                {
+                    "id": "eadd6533-94d5-4221-b74b-afe48c2acd6c",
+                    "imagePath": "dishes/donutz/donut_doce_de_leite.png",
+                    "name": "Donut Doce de Leite",
+                    "description": "O Donut Doce de Leite é a maneira perfeita de encerrar sua refeição com chave de ouro. Sua textura suave e seu sabor equilibrado garantem um momento de prazer único. Com um toque de doçura na medida certa, essa sobremesa é um verdadeiro deleite para os amantes de doces.",
+                    "price": 13
+                }
+            ]
+        },
+        {
+            "id": "3be1dbe4-39d2-4388-a325-5c23eec85822",
+            "imagePath": "restaurants/restaurant-default-image.png",
+            "name": "Panda Sushi",
+            "description": "Sushis e pratos orientais fresquinhos.",
+            "stars": 4.9,
+            "distance": 1,
+            "categories": [
+                "Principais",
+                "Bebidas"
+            ],
+            "dishes": [
+                {
+                    "id": "9fd81228-a092-4ea1-b734-27171ca0272a",
+                    "imagePath": "dishes/panda-sushi/combo_sushi.png",
+                    "name": "Combo Sushi",
+                    "description": "O Combo Sushi é um prato pensado para satisfazer os paladares mais exigentes. Com uma combinação equilibrada de ingredientes selecionados e um tempero especial, cada garfada traz uma explosão de sabores que tornam essa refeição inesquecível. Ideal para quem busca um prato completo e delicioso.",
+                    "price": 55
+                },
+                {
+                    "id": "e9c57d02-26eb-4b02-9565-749bae975827",
+                    "imagePath": "dishes/panda-sushi/yakissoba_tradicional.png",
+                    "name": "Yakissoba Tradicional",
+                    "description": "O Yakissoba Tradicional é um prato pensado para satisfazer os paladares mais exigentes. Com uma combinação equilibrada de ingredientes selecionados e um tempero especial, cada garfada traz uma explosão de sabores que tornam essa refeição inesquecível. Ideal para quem busca um prato completo e delicioso.",
+                    "price": 38
+                },
+                {
+                    "id": "12d3b6d9-ab45-40b1-88fd-96e1c403b114",
+                    "imagePath": "dishes/panda-sushi/temaki_salmao.png",
+                    "name": "Temaki de Salmão",
+                    "description": "O Temaki de Salmão é um prato pensado para satisfazer os paladares mais exigentes. Com uma combinação equilibrada de ingredientes selecionados e um tempero especial, cada garfada traz uma explosão de sabores que tornam essa refeição inesquecível. Ideal para quem busca um prato completo e delicioso.",
+                    "price": 25
+                },
+                {
+                    "id": "1c239ef6-c7fb-41bd-9288-a85c4a41a717",
+                    "imagePath": "dishes/panda-sushi/hot_roll.png",
+                    "name": "Hot Roll",
+                    "description": "O Hot Roll é um prato pensado para satisfazer os paladares mais exigentes. Com uma combinação equilibrada de ingredientes selecionados e um tempero especial, cada garfada traz uma explosão de sabores que tornam essa refeição inesquecível. Ideal para quem busca um prato completo e delicioso.",
+                    "price": 30
+                },
+                {
+                    "id": "d23bce17-d3f7-4e8d-adfa-b2e95018a0ee",
+                    "imagePath": "dishes/panda-sushi/gyoza.png",
+                    "name": "Gyoza",
+                    "description": "O Gyoza é um prato pensado para satisfazer os paladares mais exigentes. Com uma combinação equilibrada de ingredientes selecionados e um tempero especial, cada garfada traz uma explosão de sabores que tornam essa refeição inesquecível. Ideal para quem busca um prato completo e delicioso.",
+                    "price": 22
+                }
+            ]
+        },
+        {
+            "id": "98fd49b3-ef3e-4f5b-809c-4c3d96b25b67",
+            "imagePath": "restaurants/restaurant-default-image.png",
+            "name": "Verão Lanches",
+            "description": "Sanduíches artesanais e lanches rápidos deliciosos!",
+            "stars": 4.6,
+            "distance": 2,
+            "categories": ["Petiscos"],
+            "dishes": [
+                {
+                    "id": "5092c42a-6e0f-4c6f-a4f6-7be4d2c2f88a",
+                    "imagePath": "dishes/default.png",
+                    "name": "X-Salada",
+                    "description": "Pão, hambúrguer artesanal, queijo, alface e tomate.",
+                    "price": 22
+                },
+                {
+                    "id": "7b6873b3-05f0-44de-ae0d-92b6bdb506e7",
+                    "imagePath": "dishes/default.png",
+                    "name": "X-Bacon",
+                    "description": "Muito bacon, muito sabor!",
+                    "price": 25
+                },
+                {
+                    "id": "aa932abe-7cc2-4df5-9425-70b1d46f1e80",
+                    "imagePath": "dishes/default.png",
+                    "name": "Hot Dog Completo",
+                    "description": "Salsicha, purê, batata palha e muito mais.",
+                    "price": 18
+                },
+                {
+                    "id": "e09cc212-06d7-4b29-b623-207879bf5b89",
+                    "imagePath": "dishes/default.png",
+                    "name": "Batata Frita Canoa",
+                    "description": "Batata em formato de canoa, crocante e sequinha.",
+                    "price": 17
+                }
+            ]
+        },
+        {
+            "id": "d3fc4d2a-2925-4e03-8779-620e8280d214",
+            "imagePath": "restaurants/restaurant-default-image.png",
+            "name": "Doces da Maria",
+            "description": "Doces artesanais para todos os momentos!",
+            "stars": 4.8,
+            "distance": 5,
+            "categories": ["Sobremesas"],
+            "dishes": [
+                {
+                    "id": "52f057d8-34df-4efc-80cb-73ebfd037f6d",
+                    "imagePath": "dishes/default.png",
+                    "name": "Brigadeiro Gourmet",
+                    "description": "Feito com chocolate belga.",
+                    "price": 5
+                },
+                {
+                    "id": "98e1b01c-55cb-47b9-bb3a-b8cc0e482ac4",
+                    "imagePath": "dishes/default.png",
+                    "name": "Beijinho de Coco",
+                    "description": "Doce tradicional de festa.",
+                    "price": 5
+                },
+                {
+                    "id": "c7913d9c-944b-4f40-97c9-50340b77c6e0",
+                    "imagePath": "dishes/default.png",
+                    "name": "Brownie de Chocolate",
+                    "description": "Brownie denso e molhadinho.",
+                    "price": 8
+                },
+                {
+                    "id": "5889c87f-dcb1-4417-8e7d-26319bfeec25",
+                    "imagePath": "dishes/default.png",
+                    "name": "Pudim de Leite",
+                    "description": "Pudim tradicional, macio e com calda generosa.",
+                    "price": 10
+                }
+            ]
+        },
+        {
+            "id": "1f86e63d-1826-4071-8353-087dca8ce8e4",
+            "imagePath": "restaurants/restaurant-default-image.png",
+            "name": "Sabores Orientais",
+            "description": "O melhor da culinária japonesa e chinesa.",
+            "stars": 4.7,
+            "distance": 8,
+            "categories": ["Petiscos"],
+            "dishes": [
+                {
+                    "id": "b6e2d4c1-76e9-4056-8797-76c1e5cfecad",
+                    "imagePath": "dishes/default.png",
+                    "name": "Combinado Sushi",
+                    "description": "20 peças variadas de sushi e sashimi.",
+                    "price": 80
+                },
+                {
+                    "id": "8f7d3f38-b13f-4872-950b-2974b3f24f4d",
+                    "imagePath": "dishes/default.png",
+                    "name": "Yakisoba",
+                    "description": "Macarrão oriental com legumes e carne.",
+                    "price": 45
+                },
+                {
+                    "id": "fae7d56e-f82b-43f4-b6f1-601ae0a78d46",
+                    "imagePath": "dishes/default.png",
+                    "name": "Temaki de Salmão",
+                    "description": "Cone de alga recheado de salmão fresco.",
+                    "price": 25
+                },
+                {
+                    "id": "0c36060c-b703-4a2b-872e-308f2144ae04",
+                    "imagePath": "dishes/default.png",
+                    "name": "Rolinho Primavera",
+                    "description": "Rolinho frito crocante recheado de legumes.",
+                    "price": 12
+                }
+            ]
+        },
+        {
+            "id": "0a3b4e35-b4ea-4600-b823-b4d36c93b444",
+            "imagePath": "restaurants/restaurant-default-image.png",
+            "name": "Churrasquim",
+            "description": "A verdadeira experiência do churrasco brasileiro.",
+            "stars": 4.9,
+            "distance": 6,
+            "categories": ["Principais"],
+            "dishes": [
+                {
+                    "id": "4d62c6a4-b38c-4a1c-a0a3-d6e65c07f8e7",
+                    "imagePath": "dishes/default.png",
+                    "name": "Picanha na Brasa",
+                    "description": "Fatia suculenta servida com farofa e vinagrete.",
+                    "price": 75
+                },
+                {
+                    "id": "3e5ef7f4-b749-4e14-9513-5724e78f4e0c",
+                    "imagePath": "dishes/default.png",
+                    "name": "Linguiça Artesanal",
+                    "description": "Linguiça tostadinha e suculenta.",
+                    "price": 35
+                },
+                {
+                    "id": "ad3b65ab-d53a-4c97-b957-0912b00c14a0",
+                    "imagePath": "dishes/default.png",
+                    "name": "Fraldinha",
+                    "description": "Corte especial, macio e saboroso.",
+                    "price": 62
+                },
+                {
+                    "id": "f747e9c1-5055-4f9e-898d-6a23a7355e32",
+                    "imagePath": "dishes/default.png",
+                    "name": "Costela Bovina",
+                    "description": "Assada lentamente, super macia.",
+                    "price": 80
+                }
+            ]
+        },
+        {
+            "id": "aec01941-13c5-40f0-a4b2-6f607d4b2f5b",
+            "imagePath": "restaurants/restaurant-default-image.png",
+            "name": "Mama Mia",
+            "description": "Massas caseiras com aquele toque especial da mama!",
+            "stars": 4.5,
+            "distance": 4,
+            "categories": ["Massas"],
+            "dishes": [
+                {
+                    "id": "bd4eb2b2-03db-4643-b0ee-5cbde9b8f239",
+                    "imagePath": "dishes/default.png",
+                    "name": "Nhoque de Batata",
+                    "description": "Nhoque macio ao molho sugo ou quatro queijos.",
+                    "price": 40
+                },
+                {
+                    "id": "b7342e4e-1e4c-4fa7-9c88-0e2b0a387515",
+                    "imagePath": "dishes/default.png",
+                    "name": "Fettuccine Alfredo",
+                    "description": "Massa fresca com molho branco cremoso.",
+                    "price": 42
+                },
+                {
+                    "id": "727e054e-6b51-4320-b06b-9443e7060a62",
+                    "imagePath": "dishes/default.png",
+                    "name": "Ravioli de Ricota",
+                    "description": "Massa recheada com ricota e espinafre.",
+                    "price": 45
+                },
+                {
+                    "id": "f839d4d5-9b06-4217-81be-c6e1b376cb76",
+                    "imagePath": "dishes/default.png",
+                    "name": "Panna Cotta",
+                    "description": "Sobremesa italiana de creme de leite e baunilha.",
+                    "price": 20
+                }
+            ]
+        },
+        {
+            "id": "ba5a9b6d-2cd2-4a9c-927d-3884f9bfb0c7",
+            "imagePath": "restaurants/restaurant-default-image.png",
+            "name": "Toca do Açaí",
+            "description": "O melhor açaí da cidade!",
+            "stars": 4.3,
+            "distance": 2,
+            "categories": ["Sobremesas", "Bebidas"],
+            "dishes": [
+                {
+                    "id": "d5b68c5e-8af9-4657-9de7-7bc22789337c",
+                    "imagePath": "dishes/default.png",
+                    "name": "Açaí Tradicional",
+                    "description": "Açaí cremoso com banana e granola.",
+                    "price": 18
+                },
+                {
+                    "id": "8f58e8cb-0b21-4f94-80c2-f0f5f3053d39",
+                    "imagePath": "dishes/default.png",
+                    "name": "Açaí com Leite Condensado",
+                    "description": "Combinação perfeita de açaí e leite condensado.",
+                    "price": 20
+                },
+                {
+                    "id": "230c7a76-7082-4d32-b499-7d15ed3f1b38",
+                    "imagePath": "dishes/default.png",
+                    "name": "Suco de Açaí",
+                    "description": "Refrescante e energético.",
+                    "price": 15
+                },
+                {
+                    "id": "5e16a63e-8e3d-4b32-92b3-0e2706f1eb76",
+                    "imagePath": "dishes/default.png",
+                    "name": "Tapioca de Açaí",
+                    "description": "Tapioca recheada com creme de açaí.",
+                    "price": 22
+                }
+            ]
+        },
+        {
+            "id": "30204a6f-4a69-4a50-9384-0f8f3283eae4",
+            "imagePath": "restaurants/restaurant-default-image.png",
+            "name": "Bar do Márcio",
+            "description": "O melhor petisco com samba de raiz!",
+            "stars": 5.0,
+            "distance": 3,
+            "categories": ["Bebidas"],
+            "dishes": [
+                {
+                    "id": "bd0669cf-720c-4f1f-b3be-f2fc2e2766eb",
+                    "imagePath": "dishes/default.png",
+                    "name": "Batata Frita",
+                    "description": "Batata palito crocante e dourada.",
+                    "price": 15
+                },
+                {
+                    "id": "d6c1e719-8d3c-4b94-9d6f-78b6218824a0",
+                    "imagePath": "dishes/default.png",
+                    "name": "Bolinho de Mandioca",
+                    "description": "Bolinho recheado com carne seca.",
+                    "price": 18
+                },
+                {
+                    "id": "7e5c6079-0a63-4413-9c3d-4f57c3f8b636",
+                    "imagePath": "dishes/default.png",
+                    "name": "Calabresa Acebolada",
+                    "description": "Linguiça com cebola e pão francês.",
+                    "price": 25
+                },
+                {
+                    "id": "a3df054e-4018-4417-b0ec-0d681c3cbe46",
+                    "imagePath": "dishes/default.png",
+                    "name": "Cerveja Gelada",
+                    "description": "Garrafa de 600ml super gelada.",
+                    "price": 12
+                }
+            ]
+        },
+        {
+            "id": "f72b1e62-9c4d-478e-973e-bac0f4e4b7d0",
+            "imagePath": "restaurants/restaurant-default-image.png",
+            "name": "Sabor da Praia",
+            "description": "Frutos do mar fresquinhos direto para sua mesa.",
+            "stars": 4.7,
+            "distance": 3,
+            "categories": ["Principais", "Petiscos"],
+            "dishes": [
+                {
+                    "id": "0e1c7d2a-8b46-4f2e-b1cc-34a9dca90df1",
+                    "imagePath": "dishes/default.png",
+                    "name": "Camarão Empanado",
+                    "description": "Camarões crocantes servidos com molho especial.",
+                    "price": 48
+                },
+                {
+                    "id": "35a9f908-38c6-4fa7-b8eb-5e3d91c7c362",
+                    "imagePath": "dishes/default.png",
+                    "name": "Moqueca Baiana",
+                    "description": "Deliciosa moqueca de peixe com camarão.",
+                    "price": 65
+                },
+                {
+                    "id": "e3bde62c-65c4-45fc-a9a3-9e76d7bc620b",
+                    "imagePath": "dishes/default.png",
+                    "name": "Bolinho de Bacalhau",
+                    "description": "Clássico bolinho de bacalhau, sequinho e saboroso.",
+                    "price": 30
+                },
+                {
+                    "id": "d729aa87-6a79-4431-b37b-59bfe7e162fc",
+                    "imagePath": "dishes/default.png",
+                    "name": "Peixe Grelhado",
+                    "description": "Filé de peixe grelhado na manteiga de ervas.",
+                    "price": 55
+                }
+            ]
+        },
+        {
+            "id": "f54e2df1-53b5-4a30-8589-1f74a4d5145d",
+            "imagePath": "restaurants/restaurant-default-image.png",
+            "name": "Boteco do João",
+            "description": "Petiscos tradicionais e cerveja gelada!",
+            "stars": 5.0,
+            "distance": 1,
+            "categories": ["Petiscos", "Bebidas"],
+            "dishes": [
+                {
+                    "id": "bc2a4279-98d4-45ab-a890-cc7956d6571f",
+                    "imagePath": "dishes/default.png",
+                    "name": "Coxinha Cremosa",
+                    "description": "A coxinha que derrete na boca!",
+                    "price": 8
+                },
+                {
+                    "id": "1f45ec58-9cfa-4239-bc66-2c83e4fd0e6d",
+                    "imagePath": "dishes/default.png",
+                    "name": "Pastel Misto",
+                    "description": "Pastel recheado com queijo e presunto.",
+                    "price": 10
+                },
+                {
+                    "id": "76e6ecb3-7c1e-4931-829b-6b91b4b9b3b1",
+                    "imagePath": "dishes/default.png",
+                    "name": "Bolinho de Feijoada",
+                    "description": "Uma explosão de sabor em cada mordida.",
+                    "price": 12
+                },
+                {
+                    "id": "57dc94d3-b7a3-47c9-9d2b-2ed90b89c528",
+                    "imagePath": "dishes/default.png",
+                    "name": "Torresmo Crocante",
+                    "description": "Torresmo sequinho e super crocante.",
+                    "price": 20
+                }
+            ]
+        },
+        {
+            "id": "c178d8c4-09f5-4ca8-9b4a-0d7f39f8e6bd",
+            "imagePath": "restaurants/restaurant-default-image.png",
+            "name": "Pasta e Vino",
+            "description": "O verdadeiro sabor da Itália em cada prato.",
+            "stars": 2.8,
+            "distance": 5,
+            "categories": ["Massas", "Sobremesas"],
+            "dishes": [
+                {
+                    "id": "ff8c9e9a-6c62-4c68-83f3-c90ec18bdb90",
+                    "imagePath": "dishes/default.png",
+                    "name": "Lasanha à Bolonhesa",
+                    "description": "Lasanha com molho bolonhesa tradicional e muito queijo.",
+                    "price": 52
+                },
+                {
+                    "id": "eef53917-b502-44a7-b0c4-3c8e1610d3f2",
+                    "imagePath": "dishes/default.png",
+                    "name": "Spaghetti Carbonara",
+                    "description": "Massa cremosa com pancetta e queijo pecorino.",
+                    "price": 45
+                },
+                {
+                    "id": "b9a732b5-89a6-4049-9f78-2e8f7c6633c9",
+                    "imagePath": "dishes/default.png",
+                    "name": "Risoto de Funghi",
+                    "description": "Arroz arbório cremoso com cogumelos frescos.",
+                    "price": 48
+                },
+                {
+                    "id": "f2f6f93f-b68e-4ac9-9a2d-fb95fbb7337e",
+                    "imagePath": "dishes/default.png",
+                    "name": "Tiramisù",
+                    "description": "Clássica sobremesa italiana feita com café e mascarpone.",
+                    "price": 25
+                }
+            ]
+        },
+        {
+            "id": "d5a3b68f-49fd-4628-9ca3-06f8ac83b839",
+            "imagePath": "restaurants/restaurant-default-image.png",
+            "name": "Doce Sonho",
+            "description": "Doces artesanais e sobremesas irresistíveis.",
+            "stars": 3.6,
+            "distance": 2,
+            "categories": ["Sobremesas", "Bebidas"],
+            "dishes": [
+                {
+                    "id": "f8f4ed59-546b-41f8-bf65-5a17d8b5a4a9",
+                    "imagePath": "dishes/default.png",
+                    "name": "Bolo de Chocolate",
+                    "description": "Bolo fofinho com calda de chocolate derretido.",
+                    "price": 18
+                },
+                {
+                    "id": "c14818d1-82f1-4a39-b3a8-cdf2f52b3874",
+                    "imagePath": "dishes/default.png",
+                    "name": "Mousse de Maracujá",
+                    "description": "Mousse leve e refrescante de maracujá.",
+                    "price": 14
+                },
+                {
+                    "id": "fc405ab4-1e3b-472e-8b71-bb801fa6a9e5",
+                    "imagePath": "dishes/default.png",
+                    "name": "Pudim de Leite Condensado",
+                    "description": "Pudim tradicional com calda de caramelo.",
+                    "price": 16
+                },
+                {
+                    "id": "e3a3e6f3-c6e3-469e-9af3-9c67344c5727",
+                    "imagePath": "dishes/default.png",
+                    "name": "Suco de Laranja Natural",
+                    "description": "Suco fresquinho feito na hora.",
+                    "price": 9
+                }
+            ]
+        }
+    ]
+}
